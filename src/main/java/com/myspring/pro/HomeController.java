@@ -1,4 +1,4 @@
-package com.spring.project;
+package com.myspring.pro;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -32,7 +32,7 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
-		System.out.println("이야호");
+		
 		return "home";
 	}
 	
